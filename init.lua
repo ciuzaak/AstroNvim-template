@@ -18,7 +18,7 @@ end
 require "lazy_setup"
 require "polish"
 
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin-latte"
 vim.keymap.set('i', '<C-]>', 'copilot#Accept("<CR>")', {
   expr=true,
   replace_keycodes=false
